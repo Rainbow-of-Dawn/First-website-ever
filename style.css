@@ -1,0 +1,191 @@
+ul {
+  background: rgb(133, 101, 44);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 7px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  color: rgb(2, 24, 27);
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 2px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(87, 69, 20);
+  font-family: Helvetica;
+}
+
+input[type="submit"] {
+  background: #917230;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 8px;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+#results table,
+th,
+td {
+  border-collapse: 5px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  text-align: center;
+  color: rgb(87, 69, 20);
+  font-size: 15px;
+}
+
+table tr:hover td {
+  background: #cea347;
+  cursor: pointer;
+}
+
+th {
+  background-color: rgb(197, 170, 95);
+}
+
+#welcome {
+  height: 500px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("assets/coast.jpg");
+  background-size: cover;
+}
+
+#family .flex-container {
+  display: flex;
+  font-size: 15px;
+  padding: 15px 15px;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex: 1 1 0;
+  text-align: center;
+  border: 1px solid rgb(163, 133, 50);
+}
+
+#family p {
+  color: rgb(87, 69, 20);
+  font-size: 15px;
+}
+
+#family a {
+  color: rgb(87, 69, 20);
+}
+
+#family-background {
+  color: rgb(87, 69, 20);
+}
+
+#family2 .flex-container {
+  display: flex;
+  font-size: 15px;
+  padding: 15px 15px;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex: 1 1 0;
+  text-align: center;
+  border-bottom: 3px solid rgb(163, 133, 50);
+}
+
+section {
+  padding: 30px;
+}
+
+#heroes .flex-container {
+  display: flex;
+  font-size: 15px;
+  padding: 15px 15px;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex: 1 1 0;
+  text-align: center;
+  border: 3px solid rgb(163, 133, 50);
+}
+
+h1 {
+  color: rgb(87, 69, 20);
+  font-size: 28px;
+}
+
+h2 {
+  color: rgb(87, 69, 20);
+  font-size: 22px;
+}
+
+h4 {
+  color: rgb(87, 69, 20);
+}
+
+#contact-intro {
+  color: rgb(87, 69, 20);
+}
+
+#contact {
+  color: rgb(87, 69, 20);
+}
+
+#heroes-background .flex-container {
+  display: flex;
+  font-size: 13px;
+  padding: 15px 15px;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex: 1 1 0;
+  text-align-last: left;
+  border-left: 3px solid rgb(163, 133, 50);
+  border-right: 3px solid rgb(163, 133, 50);
+  color: rgb(87, 69, 20);
+}
+
+#heroes-background2 .table {
+  border-collapse: 5px;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  text-align: center;
+  color: rgb(87, 69, 20);
+  font-size: 15px;
+}
